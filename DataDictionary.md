@@ -10,7 +10,7 @@ Course Title - Name of course
 
 **Program_name** - The text identifier for the program that students enroll in
 
-**Program Code** - The unique acronym for program_name
+**Program_Code** - The unique acronym for program_name
 Attributes - A particular characterization of a course offering
 
 # Courses #
@@ -38,7 +38,7 @@ Attributes - A particular characterization of a course offering
 
 **CID** - The numeric identifier of the Catalog_id
 
-**MID** - Meeting ID, the unique numeric identifier for the time a section meets
+**SCID** - Meeting ID, the unique numeric identifier for the time a section meets
 
 **Term** - The semester and year a section is offered
 
@@ -51,14 +51,16 @@ for a section
 
 **CRN** - “Course Registration Number”, or a unique identifier of a course section
 
+**Cap** - The maximum number of students that can register for a section
+
 **Section** - The alphanumeric identifier for the course that is offered during a specific term
 
 
 # Schedules #
 
-**MID**- Meeting ID, the unique numeric identifier for the time a section meets
+**SCID**- Meeting ID, the unique numeric identifier for the time a section meets
 
-**Location** - Physical classroom location where a section of a course meets 
+**LID** - Location ID, the alphanumeric identifyer for each location
 
 **Day** - The day in which the section of a course meets
 
@@ -80,7 +82,8 @@ for a section
 
 # Classrooms #
 
+**LID** - Location ID, the alphanumeric identifyer for each location
+
 **Location** - Physical classroom location where a section of a course meets 
 
-**Cap** - The maximum number of students that can register for a section
 
