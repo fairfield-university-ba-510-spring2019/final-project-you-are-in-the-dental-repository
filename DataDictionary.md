@@ -22,35 +22,37 @@
 
 **Fees** - Additional costs of of a particular course 
 
+**Attributes** - A particular characterization of a course offering
+
 **Description** - The text details of the section offered 
 
-**Attributes** - A particular characterization of a course offering
 
 
 # Sections #
 
 **SID** - Schedule The unique numeric identifier for a section
 
-**Course_Title** - Name of course
+**Catalog_id** - The text identifier of the section for registration
 
-**Timecodes** -  The dates, days, times, and location that a section meets
-
-**Term** - The semester and year a section is offered
+**Meetings** - The dates, days, times, and location that a section meets
 
 **Primary_instructor** - The actual text name of the instructor of the section
 
+**Title** - The name of the course
+
+**Term** - The semester and year a section is offered
+
 **Act** - The actual number of students registered for a section
 
-**Rem** - The actual number of seats left available for registration 
-for a section
-
-**CRN** - “Course Registration Number”, or a unique identifier of a course section
+**Rem** - The actual number of seats left available for registration for a section
 
 **Cap** - The maximum number of students that can register for a section
 
+**CRN** - “Course Registration Number”, or a unique identifier of a course section
+
 **Section** - The alphanumeric identifier for the course that is offered during a specific term
 
-**Title** - The name of the course
+
 
 
 # Schedules #
@@ -67,7 +69,7 @@ for a section
 
 **Meetings** - The dates, days, times, and location that a section meets
 
-
+**Timecodes** - The days, times, and location that a section meets
 
 
 # Instructors #
