@@ -1,16 +1,6 @@
 # Data Dictionary 
 
 
-# Programs #
-
-**ID** - Program ID, the unique numeric identifier for the program a student enrolls in
-
-
- 
-
-
-
-
 
 # Courses #
 
@@ -22,7 +12,7 @@
 
 **Catalog_id** - The text identifier of the section for registration
 
-**Course Title** - Name of course
+**Course_Title** - Name of course
 
 **Credits** - The numeric value of a completed section
 
@@ -41,13 +31,13 @@
 
 **SID** - Schedule The unique numeric identifier for a section
 
-**CID** - The numeric identifier of the Catalog_id
+**Course_Title** - Name of course
 
-**SCID** - Meeting ID, the unique numeric identifier for the time a section meets
+**Timecodes** -  The dates, days, times, and location that a section meets
 
 **Term** - The semester and year a section is offered
 
-**IID** - Instructor ID, the alphanumeric identifier for each individual professor 
+**Primary_instructor** - The actual text name of the instructor of the section
 
 **Act** - The actual number of students registered for a section
 
@@ -77,7 +67,7 @@ for a section
 
 **Meetings** - The dates, days, times, and location that a section meets
 
-**Timecodes** -  The dates, days, times, and location that a section meets
+
 
 
 # Instructors #
