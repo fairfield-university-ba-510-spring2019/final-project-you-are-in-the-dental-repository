@@ -5,31 +5,36 @@
 
 **ID** - Program ID, the unique numeric identifier for the program a student enrolls in
 
-**Catalog_id** - The text identifier of the section for registration
-Course Title - Name of course 
 
-**Program_name** - The text identifier for the program that students enroll in
+ 
 
-**Program_Code** - The unique acronym for program_name
-Attributes - A particular characterization of a course offering
+
+
+
 
 # Courses #
 
 **CID** - The numeric identifier of the Catalog_id
 
-**Description** - The text details of the section offered 
+**Program_Code** - The unique acronym for program_name
 
-**Fees** - Additional costs of of a particular course 
+**Program_name** - The text identifier for the program that students enroll in
+
+**Catalog_id** - The text identifier of the section for registration
+
+**Course Title** - Name of course
 
 **Credits** - The numeric value of a completed section
-
-**PID** - Program ID, the unique numeric identifier for the program a student enrolls in
-
-**Title** - The name of the course
 
 **Prereqs** - The completed courses required to register for that section
 
 **Coreqs** - Corequisites
+
+**Fees** - Additional costs of of a particular course 
+
+**Description** - The text details of the section offered 
+
+**Attributes** - A particular characterization of a course offering
 
 
 # Sections #
@@ -54,6 +59,8 @@ for a section
 **Cap** - The maximum number of students that can register for a section
 
 **Section** - The alphanumeric identifier for the course that is offered during a specific term
+
+**Title** - The name of the course
 
 
 # Schedules #
