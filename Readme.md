@@ -19,3 +19,10 @@ We created a test notebook to run queries to test Domain, Entity and Relational 
 ## 6. Datawarehouse 
 
 We created an ERD and datawarehouse to manipulate smaller sets of data.
+
+## 7. Insert Data in CourseDataWarehouse.db Tables
+Once we had tables created in the CourseDataWarehouse.db It was time to insert data into the tables. We extracted relational data from the database tables. JOIN function was required to extract data from two different sourse tables to insert in to one database table.
+
+## 8 Tested Queries
+
+We tested queries to see if our tables were functional.
