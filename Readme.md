@@ -15,3 +15,7 @@ Once we had tables created in the CourseData.db It was time to insert data into 
 
 ## 5. Test Database
 We created a test notebook to run queries to test Domain, Entity and Relational integrity of the database. 
+
+## 6. Datawarehouse 
+
+We created an ERD and datawarehouse to manipulate smaller sets of data.
